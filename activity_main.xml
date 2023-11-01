@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/newsrlbackground">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add News"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/holo_orange_dark"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addButton"
+        android:text="View News"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/holo_green_dark"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/newsTextView"
+        android:layout_width="339dp"
+        android:layout_height="445dp"
+        android:layout_below="@id/viewButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="#161617"
+        android:text="News Data will be displayed here."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
